@@ -1,0 +1,131 @@
+==5720== Memcheck, a memory error detector
+==5720== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5720== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5720== Command: ./assignment3
+==5720== 
+Electric Pokemon Pikachu has entered the arena.
+Class: Electric
+	Name: Pikachu
+	HP: 150
+	Damage: 20
+
+Psychic Pokemon Abra has entered the arena.
+Class: Psychic
+	Name: Abra
+	HP: 120
+	Damage: 10
+
+Round: 1
+Current terrain: None
+Pikachu goes first
+Abra has initiated a power up.
+Pikachu HP: 140
+Abra HP: 100
+Pikachu is in the lead!
+
+Round: 2
+Current terrain: None
+Abra goes first
+Pikachu HP: 130
+Abra HP: 100
+Pikachu is in the lead!
+
+Round: 3
+Current terrain: Electric
+Abra goes first
+Pikachu HP: 120
+Abra HP: 100
+Pikachu is in the lead!
+
+Round: 4
+Current terrain: Electric
+Abra goes first
+Pikachu HP: 110
+Abra HP: 100
+Pikachu is in the lead!
+
+Round: 5
+Current terrain: Electric
+Pikachu goes first
+Pikachu has initiated a power up.
+Pikachu HP: 100
+Abra HP: 40
+Pikachu is in the lead!
+
+Round: 6
+Current terrain: Electric
+Pikachu goes first
+Pikachu HP: 90
+Abra HP: 20
+Pikachu is in the lead!
+
+Round: 7
+Current terrain: Electric
+Pikachu goes first
+Pikachu HP: 90
+Abra HP: 0
+Pikachu is in the lead!
+
+Match Results:
+Pikachu has won the match!
+
+Electric Pokemon Jolteon has entered the arena.
+Class: Electric
+	Name: Jolteon
+	HP: 150
+	Damage: 10
+
+Psychic Pokemon Kadabra has entered the arena.
+Class: Psychic
+	Name: Kadabra
+	HP: 100
+	Damage: 20
+
+Round: 1
+Current terrain: None
+Jolteon goes first
+Jolteon has initiated a power up.
+Jolteon HP: 130
+Kadabra HP: 70
+Jolteon is in the lead!
+
+Round: 2
+Current terrain: None
+Kadabra goes first
+Jolteon HP: 110
+Kadabra HP: 60
+Jolteon is in the lead!
+
+Round: 3
+Current terrain: Psychic
+Kadabra goes first
+Jolteon HP: 70
+Kadabra HP: 50
+Jolteon is in the lead!
+
+Round: 4
+Current terrain: Psychic
+Kadabra goes first
+Jolteon HP: 30
+Kadabra HP: 40
+Kadabra is in the lead!
+
+Round: 5
+Current terrain: Psychic
+Kadabra goes first
+Jolteon HP: 0
+Kadabra HP: 40
+Kadabra is in the lead!
+
+Match Results:
+Kadabra has won the match!
+
+==5720== 
+==5720== HEAP SUMMARY:
+==5720==     in use at exit: 0 bytes in 0 blocks
+==5720==   total heap usage: 6 allocs, 6 frees, 77,072 bytes allocated
+==5720== 
+==5720== All heap blocks were freed -- no leaks are possible
+==5720== 
+==5720== For counts of detected and suppressed errors, rerun with: -v
+==5720== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
